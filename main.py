@@ -33,8 +33,6 @@ def predict():
         data=data.dropna()
         data=data.reset_index(drop=True)
 
-
-
         X = data[['Material Quantity (gm)', 'Additive Catalyst (gm)',
                   'Ash Component (gm)', 'Water Mix (ml)', 'Plasticizer (gm)',
                  'Moderate Aggregator', 'Refined Aggregator', 'Formulation Duration (hrs)']]
