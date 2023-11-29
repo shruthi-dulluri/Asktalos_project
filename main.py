@@ -28,8 +28,7 @@ def predict():
         # Load your dataset (or use existing data)
         # Perform your multiple linear regression here
         # Replace this with your actual model training and prediction steps
-        data = pd.read_csv(
-            "C://Users/Yudhav//Desktop//AI classes//Liveproject//Material Compressive Strength Experimental Data (1).csv")
+        data = pd.read_csv("Material Compressive Strength Experimental Data (1).csv")
 
         data=data.dropna()
         data=data.reset_index(drop=True)
